@@ -1,8 +1,8 @@
 # SuperMarket
 SuperMarket Pratices
 
-#Requirement
-##Entity
+##Requirement
+###Entity
 
   Supermarket
   
@@ -12,7 +12,7 @@ SuperMarket Pratices
   
   Good
   
-##流程如下
+###流程如下
 
   -启动 Supermarket 
   
@@ -34,15 +34,15 @@ SuperMarket Pratices
   
   -统计出每个 Cashier 接待的顾客数量  //每个收银员处理的顾客数
  
-#设计分析
+##设计分析
 
 Cashier需要长期运行,需要实现统计处理的顾客数目以及通知超市处理完毕的功能,使用线程实现。
 
-#Supermarket 程序主体,包含管理货物及Cashier的功能 做为被观察者通知Cashier货物剩余情况,同时做为观察者接收Cashier处理顾客请求的情况
+Supermarket 程序主体,包含管理货物及Cashier的功能 做为被观察者通知Cashier货物剩余情况,同时做为观察者接收Cashier处理顾客请求的情况
 
-#Apple/MackBook/Cookie都属于抽象类Goods的子类,拥有相同的属性:name/price/id
+Apple/MackBook/Cookie都属于抽象类Goods的子类,拥有相同的属性:name/price/id
 
-#统计方法
+##统计方法
 
   统计出每个顾客平均等待时间: 
   
@@ -51,7 +51,7 @@ Cashier需要长期运行,需要实现统计处理的顾客数目以及通知超
   所有顾客的平均等待时间：三个队伍所有顾客的所需等待时间的集合处于所有的顾客数
   
   
-#类说明
+##类说明
 
 Customer:顾客
 
@@ -61,7 +61,7 @@ SuperMarket:超市,具有上架商品/获取货物/管理收银员/导向顾客�
 
 Cashier:收银员,处理顾客请求/统计处理的顾客数目的功能
 
-#Console:
+##Console:
 
 商品上架完成
 
@@ -97,11 +97,11 @@ Cashier:收银员,处理顾客请求/统计处理的顾客数目的功能
 Process finished with exit code 0
 
   
-#项目管理：
+##项目管理：
 Maven
-#单元测试框架：
+##单元测试框架：
 TestNG
-#报告框架：
+##报告框架：
 ReportNG
 
   
