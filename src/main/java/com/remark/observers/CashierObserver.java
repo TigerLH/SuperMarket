@@ -6,5 +6,5 @@ package com.remark.observers;
  * @date 2017/1/19.
  */
 public interface CashierObserver {
-    public void onProcessingCompleted();
+    void onProcessingCompleted();
 }

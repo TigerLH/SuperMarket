@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.000">
+  <properties />
+  
+  
+            <testcase name="testInit" time="0.000" classname="goods.SuperMarketTest" />
+                <testcase name="testInitCashier" time="0.000" classname="goods.SuperMarketTest" />
+                <testcase name="customerLineUpTest" time="0.000" classname="goods.SuperMarketTest" />
+                <testcase name="testGetGoods" time="0.000" classname="goods.SuperMarketTest" />
+      
+</testsuite>

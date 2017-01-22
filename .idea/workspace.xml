@@ -2,32 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8529d072-8841-42a6-956c-a61344ede1a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/customer/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/customer/CustomerManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierSubject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/util/RandomUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cashier/CashierTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/util/RandomUtilTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/Observer/CustomerObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/Observer/CustomerSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/entity/SuperMarket.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/thread/Cashier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/thread/Customer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/remark/entity/SuperMarket.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/remark/goods/Apple.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/remark/goods/Cookie.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/remark/goods/Goods.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/remark/goods/MacBook.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/Observer/GoodsObserver.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsObserver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/Observer/GoodsSubject.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsSubject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/goods/Apple.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/goods/Apple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/goods/Cookie.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/goods/Cookie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/goods/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/goods/Goods.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/remark/goods/MacBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/goods/MacBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/goods/SuperMarketTest.class" afterPath="$PROJECT_DIR$/target/test-classes/goods/SuperMarketTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/remark/main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remark.iml" afterPath="$PROJECT_DIR$/remark.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierObserver.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierSubject.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/CashierSubject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsObserver.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsSubject.java" afterPath="$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsSubject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java" afterPath="$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java" />
     </list>
     <ignored path="remark.iws" />
@@ -50,98 +34,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SuperMarketTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SuperMarketTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuperMarket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1319">
-              <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
-              <folding>
-                <element signature="e#2454#2455#0" expanded="true" />
-                <element signature="e#2493#2494#0" expanded="true" />
-                <element signature="e#4524#4533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/RandomUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MacBook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/goods/MacBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CashierObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/observers/CashierObserver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#637#654#0" expanded="true" />
-                <element signature="e#776#783#0" expanded="true" />
-                <element signature="e#956#965#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1426#1427#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1696#1697#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1813#1814#0" expanded="true" />
-                <element signature="e#1845#1846#0" expanded="true" />
-                <element signature="e#2051#2052#0" expanded="true" />
-                <element signature="e#2097#2098#0" expanded="true" />
-                <element signature="e#2947#2948#0" expanded="true" />
-                <element signature="e#2979#2980#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#2236#2237#0" expanded="true" />
+                <element signature="e#2275#2276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,11 +52,9 @@
       <file leaf-file-name="CashierTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/cashier/CashierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="295">
               <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,15 +95,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/remark/manager/CustomerManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/Utils/RandomUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utils/RandomUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/cashier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/entity/SuperMarket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/market/cunstomer/CustomerManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/market/goods/Goods.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java" />
         <option value="$PROJECT_DIR$/src/test/java/cashier/CashierTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/remark/main.java" />
         <option value="$PROJECT_DIR$/src/test/java/customer/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/remark/market/customer/CustomerManager.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java" />
       </list>
     </option>
   </component>
@@ -251,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,6 +171,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SuperMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperMarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,74 +292,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperMarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -462,106 +315,7 @@
       <recent name="C:\Users\dell\git\SuperMarket\src\main\java\com\remark" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CustomerTest.customerTest">
-    <configuration default="false" name="CashierTest.customerCountTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cashier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="remark" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cashier" />
-      <option name="MAIN_CLASS_NAME" value="cashier.CashierTest" />
-      <option name="METHOD_NAME" value="customerCountTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="CashierTest.checkOutTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cashier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="remark" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="cashier" />
-      <option name="MAIN_CLASS_NAME" value="cashier.CashierTest" />
-      <option name="METHOD_NAME" value="checkOutTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="RandomUtilTest.randomNumberTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="remark" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="util" />
-      <option name="MAIN_CLASS_NAME" value="util.RandomUtilTest" />
-      <option name="METHOD_NAME" value="randomNumberTest" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.SuperMarketTest.testInit">
     <configuration default="false" name="SuperMarketTest.testGetGoods" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -595,10 +349,30 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="false" name="CustomerTest.customerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="customer.*" />
+          <option name="PATTERN" value="com.remark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.remark.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="remark" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SuperMarketTest.testInitCashier" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="goods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -606,9 +380,75 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="customer" />
-      <option name="MAIN_CLASS_NAME" value="customer.CustomerTest" />
-      <option name="METHOD_NAME" value="customerTest" />
+      <option name="PACKAGE_NAME" value="goods" />
+      <option name="MAIN_CLASS_NAME" value="goods.SuperMarketTest" />
+      <option name="METHOD_NAME" value="testInitCashier" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="SuperMarketTest.customerLineUpTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="remark" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="goods" />
+      <option name="MAIN_CLASS_NAME" value="goods.SuperMarketTest" />
+      <option name="METHOD_NAME" value="customerLineUpTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="SuperMarketTest.testInit" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="goods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="remark" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="goods" />
+      <option name="MAIN_CLASS_NAME" value="goods.SuperMarketTest" />
+      <option name="METHOD_NAME" value="testInit" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1049,19 +889,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.CashierTest.customerCountTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.CashierTest.checkOutTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RandomUtilTest.randomNumberTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testGetGoods" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CustomerTest.customerTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testGetGoods" />
+      <item index="1" class="java.lang.String" itemvalue="Application.main" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testInitCashier" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.customerLineUpTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testInit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CustomerTest.customerTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testGetGoods" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RandomUtilTest.randomNumberTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.CashierTest.checkOutTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.CashierTest.customerCountTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testInit" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.customerLineUpTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testGetGoods" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SuperMarketTest.testInitCashier" />
+        <item index="4" class="java.lang.String" itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -1077,43 +917,45 @@
       <updated>1484874926200</updated>
       <workItem from="1484874927425" duration="13165000" />
       <workItem from="1484898706064" duration="15237000" />
+      <workItem from="1485048075094" duration="4044000" />
+      <workItem from="1485075639273" duration="1214000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CashierTest_checkOutTest - 2017.01.20 at 20h 32m 52s.xml">
-      <configuration name="CashierTest.checkOutTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CashierTest_checkOutTest - 2017.01.20 at 20h 39m 15s.xml">
-      <configuration name="CashierTest.checkOutTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CashierTest_customerCountTest - 2017.01.20 at 20h 32m 23s.xml">
-      <configuration name="CashierTest.customerCountTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CashierTest_customerCountTest - 2017.01.20 at 20h 32m 34s.xml">
-      <configuration name="CashierTest.customerCountTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerTest_customerTest - 2017.01.20 at 20h 47m 44s.xml">
-      <configuration name="CustomerTest.customerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerTest_customerTest - 2017.01.20 at 20h 48m 19s.xml">
-      <configuration name="CustomerTest.customerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerTest_customerTest - 2017.01.20 at 20h 48m 31s.xml">
-      <configuration name="CustomerTest.customerTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerTest_customerTest - 2017.01.20 at 20h 50m 56s.xml">
-      <configuration name="CustomerTest.customerTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RandomUtilTest_randomNumberTest - 2017.01.20 at 20h 41m 27s.xml">
       <configuration name="RandomUtilTest.randomNumberTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_customerLineUpTest - 2017.01.22 at 16h 49m 14s.xml">
+      <configuration name="SuperMarketTest.customerLineUpTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_customerLineUpTest - 2017.01.22 at 16h 53m 26s.xml">
+      <configuration name="SuperMarketTest.customerLineUpTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_customerLineUpTest - 2017.01.22 at 16h 55m 08s.xml">
+      <configuration name="SuperMarketTest.customerLineUpTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_customerLineUpTest - 2017.01.22 at 16h 55m 48s.xml">
+      <configuration name="SuperMarketTest.customerLineUpTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="SuperMarketTest_testGetGoods - 2017.01.20 at 20h 41m 44s.xml">
       <configuration name="SuperMarketTest.testGetGoods" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SuperMarketTest_testGetGoods - 2017.01.22 at 16h 47m 03s.xml">
+      <configuration name="SuperMarketTest.testGetGoods" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_testInit - 2017.01.22 at 17h 15m 10s.xml">
+      <configuration name="SuperMarketTest.testInit" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_testInitCashier - 2017.01.22 at 16h 29m 39s.xml">
+      <configuration name="SuperMarketTest.testInitCashier" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SuperMarketTest_testInitCashier - 2017.01.22 at 16h 33m 05s.xml">
+      <configuration name="SuperMarketTest.testInitCashier" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28402000" />
+    <option name="totallyTimeSpent" value="33660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -1126,25 +968,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39810428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33175355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1171,10 +1013,115 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <folding>
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#269#270#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#381#382#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+          <folding>
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/RandomUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/goods/MacBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/observers/CashierObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cashier/CashierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1184,9 +1131,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2454#2455#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#4524#4533#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,53 +1143,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/Utils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/util/RandomUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="e#259#260#0" expanded="false" />
-            <element signature="e#318#319#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/goods/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/goods/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/cashier.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/observers/GoodsSubject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,18 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/CustomerManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,20 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,42 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#654#0" expanded="true" />
-            <element signature="e#776#783#0" expanded="true" />
-            <element signature="e#956#965#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1845#1846#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2097#2098#0" expanded="true" />
-            <element signature="e#2947#2948#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,52 +1223,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1319">
-          <caret line="99" column="15" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="15" />
+        <state relative-caret-position="247">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
-            <element signature="e#2454#2455#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#4524#4533#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#381#382#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/cashier/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/CustomerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/customer/CustomerTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/util/RandomUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="209">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/SuperMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#3703#3704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cashier/CashierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="295">
           <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/customer/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/remark/market/customer/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/goods/SuperMarketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
           <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
           </folding>
         </state>
       </provider>

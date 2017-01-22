@@ -6,7 +6,7 @@ package com.remark.observers;
  * @date 2017/1/19.
  */
 public interface CashierSubject {
-    public void registerCashierObserver(CashierObserver o);
-    public void removeCashierObserver(CashierObserver o);
-    public void notifyCashierObservers();
+    void registerCashierObserver(CashierObserver o);
+    void removeCashierObserver(CashierObserver o);
+    void notifyCashierObservers();
 }

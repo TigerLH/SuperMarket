@@ -43,6 +43,9 @@ public class SuperMarket implements GoodsSubject,CashierObserver{
      * 初始化商品
      */
     public void initGoods(){
+        if(goodsList.size()>0){
+            goodsList.clear();
+        }
         for(int i = 0;i < 15;i++){
             goodsList.add(new Apple());
             goodsList.add(new MacBook());
@@ -113,7 +116,7 @@ public class SuperMarket implements GoodsSubject,CashierObserver{
         if(size>0){			//商品剩余数量大于0
         	int random = (int)(Math.random()*size);
 	        goods = goodsList.get(random);
-	        customerLineUp(goods);
+	        customerLineUp(cashierList,goods);
 	        goodsList.remove(goods);
         	if(getCount()==0){    //货架上没有商品则通知收银员
         		System.out.println("商品已选购完毕");
@@ -126,10 +129,10 @@ public class SuperMarket implements GoodsSubject,CashierObserver{
     /**
      *顾客选择人少的队伍排队
      */
-    public void customerLineUp(Goods goods) {
-        Cashier cashier_min = cashierList.get(0);
+    public void customerLineUp(List<Cashier> list ,Goods goods) {
+        Cashier cashier_min = list.get(0);
         int min = cashier_min.getCustomerCount();
-        for(Cashier cashier : cashierList){
+        for(Cashier cashier : list){
             int temp = cashier.getCustomerCount();
             if(temp<min){
                 min = temp;

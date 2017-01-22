@@ -6,7 +6,7 @@ package com.remark.observers;
  * @date 2017/1/19.
  */
 public interface GoodsSubject {
-    public void registerGoodsObserver(GoodsObserver o);
-    public void removeGoodsObserver(GoodsObserver o);
-    public void notifyGoodsObservers();
+    void registerGoodsObserver(GoodsObserver o);
+    void removeGoodsObserver(GoodsObserver o);
+    void notifyGoodsObservers();
 }

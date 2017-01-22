@@ -1,0 +1,14 @@
+com\remark\observers\CashierSubject.class
+com\remark\util\RandomUtil.class
+com\remark\market\SuperMarket.class
+com\remark\market\goods\MacBook.class
+com\remark\market\cashier\Cashier.class
+com\remark\market\customer\CustomerManager.class
+com\remark\observers\GoodsSubject.class
+com\remark\market\goods\Apple.class
+com\remark\market\goods\Goods.class
+com\remark\observers\GoodsObserver.class
+com\remark\main.class
+com\remark\observers\CashierObserver.class
+com\remark\market\customer\Customer.class
+com\remark\market\goods\Cookie.class
