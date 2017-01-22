@@ -97,16 +97,18 @@ Cashier:收银员,处理顾客请求/统计处理的顾客数目的功能
 Process finished with exit code 0
 
   
-##项目管理：
+##项目管理
 Maven
 
-##单元测试框架：
+##单元测试框架
 
 测试框架：TestNG
 
 断言:hamcrest
 
-运行:mvn clean test 
+运行测试:
+插件：maven-compiler-plugin
+command:mvn clean test 
 
 ##报告框架：
 
