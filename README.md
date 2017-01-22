@@ -107,7 +107,9 @@ Maven
 断言:hamcrest
 
 运行测试:
+
 插件：maven-compiler-plugin
+
 command:mvn clean test 
 
 ##报告框架：
