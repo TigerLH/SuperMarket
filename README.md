@@ -99,9 +99,19 @@ Process finished with exit code 0
   
 ##项目管理：
 Maven
+
 ##单元测试框架：
-TestNG
+
+测试框架：TestNG
+
+断言:hamcrest
+
+运行:mvn clean test 
+
 ##报告框架：
+
 ReportNG
+
+目录:target/surefire-reports
 
   
